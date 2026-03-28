@@ -1,15 +1,10 @@
+<div align="center">
+  <h1>Gesso Studio 1.0: The Visual Blueprint</h1>
+  <p><b>The Sovereign System of Record for Visual Intent</b></p>
+  <p><i>A Deterministic Substrate Protocol for the Generative Era</i></p>
+</div>
 
-
------
-
-\<div align="center"\>
-\<h1\>Gesso Studio 1.0: The Visual Blueprint\</h1\>
-\<p\>\<b\>The Sovereign System of Record for Visual Intent\</b\>\</p\>
-\<p\>\<i\>A Deterministic Substrate Protocol for the Generative Era\</i\>\</p\>
-<br>
-\</div\>
-
------
+---
 
 ## 👁️ The Vision: Recovering Atomic Intent
 
