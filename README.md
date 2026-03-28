@@ -1,6 +1,15 @@
+\<div align="center"\>
+\<h1\>Gesso Studio 1.0: The Visual Blueprint\</h1\>
+\<p\>\<b\>The Sovereign System of Record for Visual Intent\</b\>\</p\>
+\<p\>\<i\>A Deterministic Substrate Protocol for the Generative Era\</i\>\</p\>
+<br>
+\</div\>
+
+-----
+
 ## 👁️ The Vision: Recovering Atomic Intent
 
-In the current generative landscape, visual assets are treated as **Implicit State** (bitmaps). A PNG or JPEG stores only the resulting color of a coordinate, completely stripping away the forces, geometry, and material physics that created it. This "Flattening Problem" results in a total loss of **Visual Provenance**, making surgical editing, version control, and cross-platform realization impossible without destructive re-processing.
+In the current generative landscape, visual assets are treated as **Implicit State** (bitmaps). A PNG or JPEG stores only the resulting color of a coordinate, stripping away the forces, geometry, and material physics that created it. This "Flattening Problem" results in a total loss of **Visual Provenance**, making surgical editing, version control, and cross-platform realization impossible without destructive re-processing.
 
 **Gesso is the recovery of Explicit State.** It is a deterministic, declarative Domain-Specific Language (DSL) that defines visual space as a sequence of **Material Negotiations**. Instead of storing flattened pixels, Gesso stores pigment chemistry, brush dynamics, and volumetric logic. By shifting the "Source of Truth" from the resulting image to the underlying instruction set, Gesso provides a universal "Narrow Waist" between high-level AI imagination and physical/computational execution.
 
