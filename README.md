@@ -1,168 +1,152 @@
-<div align="center">
-  <h1>Gesso Studio 1.0: The Semantic Brush</h1>
-  <p><b>The Definitive System of Record for Visual Intent</b></p>
-  <p><i>A PLM (Product Lifecycle Management) for Generative Art</i></p>
-  <br/>
-</div>
+\<div align="center"\>
+\<h1\>Gesso Studio 1.0: The Visual Blueprint\</h1\>
+\<p\>\<b\>The Sovereign System of Record for Visual Intent\</b\>\</p\>
+\<p\>\<i\>A Deterministic Substrate Protocol for the Generative Era\</i\>\</p\>
+<br>
+\</div\>
 
----
+-----
 
-## 🎨 The Vision: System of Record for Visual Space
+## 👁️ The Vision: Recovering Atomic Intent
 
-What if you could capture every nuance of a visual masterpiece—the brush stiffness, paint viscosity, pigment mixing ratios, light reflectance, and even the directional flow of a palette knife—in a single, human‑readable text file? What if that same file could be instantly rendered as a high‑performance WebGL preview, a production-grade 8k raster, or a set of precise coordinates for a robotic painting arm?
+In the current generative landscape, visual assets are treated as **Implicit State** (bitmaps). A PNG or JPEG stores only the resulting color of a coordinate, completely stripping away the forces, geometry, and material physics that created it. This "Flattening Problem" results in a total loss of **Visual Provenance**, making surgical editing, version control, and cross-platform realization impossible without destructive re-processing.
 
-**Gesso is that file.** It is a deterministic, declarative domain‑specific language designed to be the **standard output format for AI vision models**, providing a transparent, editable, and versionable alternative to "Black Box" latent space generation. It unifies the discrete logic of geometric primitives with the continuous physics of material mediums into a single, human-readable "Narrow Waist" protocol. Like a CAD system consolidates engineering intent, Gesso consolidates every aspect of a visual work—from the substrate texture to the specular glint of metallic threads—into a single, version‑controllable format.
+**Gesso is the recovery of Explicit State.** It is a deterministic, declarative Domain-Specific Language (DSL) that defines visual space as a sequence of **Material Negotiations**. Instead of storing flattened pixels, Gesso stores pigment chemistry, brush dynamics, and volumetric logic. By shifting the "Source of Truth" from the resulting image to the underlying instruction set, Gesso provides a universal "Narrow Waist" between high-level AI imagination and physical/computational execution.
 
-### The "Narrow Waist" Philosophy
-Gesso Studio 1.0 is built on a philosophy of **strict decoupling** between the pure-function parser and the physical realization layers. 
-* **The Compiler**: Operates as a pure function, taking a Gesso source string and deterministically outputting an Abstract Syntax Tree (AST) and a resolved material map. It has no concept of pixels, shaders, or screens.
-* **The Physics & Rendering Layers**: The WebGL/WebGPU Profile A engine and the high-fidelity Rust Profile C engine act purely as consumers of the compiler's output. They never assume the internal state of the compiler, ensuring memory safety, immutability, and infinite scalability.
+-----
 
-### 🏗️ The Ecosystem Architecture
-- **gessoc (The Brain):** A pure-function Rust compiler (wasm32) that transforms Gesso source into a mathematical representation of visual intent.
-- **Gesso Studio Web (The Interface):** A high-performance Projectional IDE utilizing React, Monaco, and a bi-directional "Projectional Loop" for live direct manipulation.
-- **gessod (The Muscle):** A Rust-based daemon for real-world realization, orchestrating CNC routers, robotic painting arms, and external path-tracing renderers.
-- **Profile A Renderer (The Pixels):** A browser-native WebGL implementation for real-time 60fps interaction and "Sketch Mode" verification.
+## ⚖️ The Sovereignty Mandate
 
----
+Current generative pipelines rely on centralized "Black Box" SaaS providers, creating existential risks for professional creators regarding **Data Residency**, **Copyright Traceability**, and **Platform Lock-in**.
+
+Gesso restores the **Ownership Chain** through a three-pillared mandate:
+
+1.  **Local-First Execution**: Gesso Studio utilizes a Rust-based compiler targeting WebAssembly (Wasm). All parsing, material resolution, and rendering happen on the client side. Your intent never leaves your machine.
+2.  **Archival Determinism**: A Gesso file is not a suggestion; it is a mandate. It yields bit-identical results regardless of the rendering hardware, ensuring that visual assets are archival and legally defensible.
+3.  **Sovereign Distribution**: Designed for decentralized deployment (Cloudflare Pages/R2), ensuring the infrastructure remains operational independent of any single corporate entity or cloud gatekeeper.
+
+-----
+
+## 🏗️ Ecosystem Architecture: The Dual-Track Mandate
+
+Gesso is engineered to maintain absolute parity between rapid browser-based prototyping and production-grade realization.
+
+### 1\. The Simulation Track (TypeScript / `/src`)
+
+A high-speed iteration environment designed for the **Projectional DAW** workflow.
+
+  * **LL(1) Recursive Descent Parser**: A zero-latency engine that validates Gesso grammar against the EBNF spec in real-time.
+  * **Projectional Mutation**: A bi-directional loop where UI interactions (dragging, scaling) perform real-time mutations on the Abstract Syntax Tree (AST).
+  * **Profile A Renderer**: A browser-native implementation utilizing the HTML5 Canvas and WebGL for 60fps creative feedback.
+
+### 2\. The Production Track (Rust / `/gessoc`)
+
+The "Steel" layer of the project, designed for heavy computation and high-fidelity output.
+
+  * **gessoc**: A pure-function Rust core used for headless exports and CLI-based automation.
+  * **Profile C (Volumetric)**: A Physically Based Rendering (PBR) engine that simulates light interaction with paint height (Impasto), metallic reflectance, and substrate porosity.
+  * **gessod**: A master daemon for physical realization, delegating instructions to CNC plotters and robotic painting arms via the **Visual Delegation Protocol (VDP)**.
+
+-----
 
 ## 🧠 Intelligence Layer: Addendum H (RAG)
 
-To maintain a 10x development velocity and ensure architectural consistency, Gesso Studio implements **Retrieval-Augmented Generation (RAG)**. The local LanceDB indexer is now **LIVE**.
+To ensure high-velocity development and architectural consistency, Gesso Studio features a built-in **Semantic Knowledge Layer**.
 
-- **Semantic Indexing:** AST-aware chunking via Tree-sitter ensures logical blocks (definitions, layers, and material resolvers) remain intact for AI analysis.
-- **Spec-Traceability:** The built-in Audit Engine fetches definitive evidence from the codebase to prove adherence to the Gesso v1.0.0 Specification.
-- **Domain Tagging:** Every code vector is tagged by architectural domain (`compiler`, `renderer`, `physics`, `ui`), ensuring the AI collaborator remains focused on the relevant layer.
+  * **AST-Aware Indexing**: The project uses `web-tree-sitter` to index the codebase by logical symbols (functions, interfaces, material definitions) rather than raw text. This ensures AI assistants understand the project's "nervous system."
+  * **Architectural Traceability**: The Audit Engine maps specific code blocks to the Gesso v1.0.0 Specification, providing "Definitive Evidence" of feature compliance.
+  * **Semantic Console**: Contributors can query the project’s internal logic using `npm run search`.
 
-### Using the Semantic Console
-
-**Note:** A valid `GEMINI_API_KEY` must be present in the `.env` file in the root directory for these scripts to function.
-
-```bash
-# To map the current codebase to the vector database:
-npm run index
-
-# To search the database for context before writing new code:
-npm run search "How does the resolver handle LERP math for the mix() function?"
-```
-
----
-
-## 🏗️ Current State: The Iterative Hybrid Architecture
-
-We are currently in an active, pragmatic, and highly iterative development phase governed by the **Dual-Track Mandate**:
-
-* **TypeScript Scaffolding (Live Web Preview):** Currently, the TypeScript frontend handles the heavy lifting of AST parsing and "Profile A" rendering. This is intentional *scaffolding* that allows us to rapidly prototype material physics and immediately visualize the results in the browser.
-* **Rust Core (`gessoc`) (The Steel):** The high-performance Rust core (compiled to WebAssembly) acts as our robust engine for "Profile C" rendering. It is the absolute single source of truth for the Gesso language and the material physics engine.
-* **Projectional Loop:** The bi-directional sync is fully operational. Dragging a shape on the canvas performs a real-time mutation of the Abstract Syntax Tree, which is then "Ejected" back into the source code, closing the loop between human intuition and code-based precision.
-
----
-
-## 🗺️ The Roadmap: Turning Scaffolding into Steel
-
-As we transition from our v1.0.0 release to the final production suite, we are systematically replacing our rapid-prototyping scaffolding with enterprise-grade infrastructure:
-
-* **Phase 1: The Rust Port:** Migrating the finalized TypeScript LL(1) parser entirely into the Rust `gessoc` crate. This maximizes performance for massive-scale files and establishes Rust as the sovereign authority.
-* **Phase 2: Volumetric Shaders:** Expanding the "Profile A" renderer to support PBR (Physically Based Rendering), utilizing normal maps to simulate 3D paint ridges (Impasto) and metallic reflectance.
-* **Phase 3: Daemon Orchestration:** Hardening the `gessod` daemon for CNC/Robotic delegation, allowing Gesso to transition from the screen to physical canvas.
-* **Phase 4: Semantic Decompiler:** Implementing Addendum D to allow for the decompilation of existing raster images into editable, low-token Gesso intent files.
-
----
-
-## 🚀 Deployment & Sovereignty: High-Fidelity Distribution
-
-Gesso Studio 1.0 is designed for **Zero-Cost, High-Fidelity Distribution**:
-
-* **Hosting:** Distributed via Cloudflare Pages with native COOP/COEP headers to unlock high-performance multi-threaded rendering.
-* **Sovereignty:** 100% client-side execution via Wasm; no server-side "Gatekeepers" are required for compilation or rendering.
-
-### Embedding Gesso Canvases (Web Component)
-
-You can easily embed interactive Gesso artworks on any webpage using the framework-agnostic `<gesso-canvas>` Web Component.
-
-```html
-<script type="module" src="[https://gesso.dev/gesso-canvas.js](https://gesso.dev/gesso-canvas.js)"></script>
-
-<gesso-canvas src="[https://my-art.gesso](https://my-art.gesso)"></gesso-canvas>
-```
-
----
+-----
 
 ## 💻 Language in Action
 
-Gesso 1.0 introduces stateful material logic and powerful pigment mixing for precise control over artistic expression.
+Gesso strictly decouples the **Physics** (The Medium) from the **Logic** (The Composition).
 
 ```gesso
 gesso "1.0" {
-  meta @{ title: "Crimson Swirl", lighting: 315deg }
-  
-  def crimson "Heavy Oil" style=paint @{ color: #E30022, medium: oil, flow: 0.05 }
-  def gold "Gold Thread" style=paint @{ color: #FFD700, medium: metallic, gloss: high }
-  
-  layer "Impasto" {
-    %% The .mix() function resolves to deterministic pigment math
-    circle pos: [50%, 50%], radius: 30%, fill: mix(crimson, gold, 0.2)
+  meta @{ 
+    title: "Sovereign Study No. 1", 
+    format: "8000x8000px",
+    provenance: "local-first-wasm"
+  }
+
+  %% 1. DEFINE THE PHYSICS (Materials)
+  def charcoal "Willow" style=brush @{ hardness: 0.2, texture: gritty }
+  def oil_crimson "Alizarin" style=paint @{ color: #E30022, flow: 0.05, gloss: 0.8 }
+
+  %% 2. DEFINE THE LOGIC (Layers)
+  layer "Substrate" {
+    rect size: [100%, 100%], fill: #E9E5CE %% Heavy Linen
+  }
+
+  layer "Intent" {
+    %% mix() resolves to deterministic pigment math
+    circle pos: [50%, 50%], radius: 25%, fill: mix(oil_crimson, #FFFFFF, 0.2)
     
-    %% Control lanes handle variable thickness along paths
-    path "Gold Streak" @{
-      points: [[20%, 80%, 80%, 20%]],
-      stroke: gold,
-      control: stroke_width = [2, 10, 2]
+    %% Control lanes: Dynamic modulation along a path
+    path "Main Contour" @{
+      points: [[10%, 10%, 90%, 90%]],
+      stroke: charcoal,
+      control: stroke_width = [2, 15, 5]
     }
   }
 }
 ```
 
----
+-----
 
-## 🤖 The AI Bridge: From Intent to Infrastructure
+## 🚀 Getting Started
 
-Because Gesso is a text-based DSL, it is natively "fluent" in LLM (Large Language Model) contexts. Unlike a flattened PNG, an AI can read, write, and refactor Gesso code to perform complex visual tasks that would take hours in a traditional GUI.
+### Prerequisites
 
-### Producer Interaction Example
+  * **Node.js** (v20+ LTS)
+  * **Rust** (Stable) + `wasm-pack` (for core modifications)
 
-**Prompt:** *"Give me a dark minimalist canvas with a single neon blue streak that starts thin and gets thick. Add a rough linen texture to the substrate."*
+### Installation & Launch
 
-**Gesso Output:**
-```gesso
-// AI-Generated minimalist structure
-def substrate "Rough Linen" style=surface @{ texture: linen, color: #111 }
-def neon_blue "Blue Glow" style=paint @{ color: #00F, gloss: luminous }
-
-layer "Main" {
-  path "Streak" @{
-    points: [[10%, 50%, 90%, 50%]],
-    stroke: neon_blue,
-    control: stroke_width = [1, 25] // Creates the swelling width effect
-  }
-}
-```
-
----
-
-## 🚀 Advanced Development Setup
-
-#### 1. General Prerequisites
-* **Node.js** (v18+ LTS)
-* **Rust** (Stable) via [rustup.rs](https://rustup.rs)
-* **wasm-pack**: `cargo install wasm-pack`
-
-#### 2. Local Build Flow
 ```bash
-# 1. Compile the Rust Core
-cd gessoc
-wasm-pack build --target web --out-dir ../public/pkg
+# Clone the repository
+git clone https://github.com/your-org/gesso-studio.git
+cd gesso-studio
 
-# 2. Launch the Studio
-cd ..
+# Build the sovereign core
+npm run build:wasm
+
+# Start the interactive studio
 npm install
 npm run dev
 ```
 
----
+### Knowledge Management
 
-## 📜 License
+```bash
+# Refresh the semantic database for the RAG assistant
+npm run index
 
-Gesso Studio is released under the MIT License.
+# Query architectural context
+npm run search "How does the Eject Protocol handle relative coordinates?"
+```
 
-&copy; 2026 Gesso Working Group
+-----
+
+## 🗺️ Roadmap: The Realization Horizon
+
+  * **Phase 1 (Released)**: Base Geometry, Material Specification, and Bi-directional Sync.
+  * **Phase 2 (Q3 2026)**: Volumetric Impasto Engine (Normal-mapped WebGL shaders for paint depth).
+  * **Phase 3 (Q4 2026)**: Hardware Delegation (VDP support for 6-axis robotic painters).
+  * **Phase 4 (Q1 2027)**: Semantic Decompiler (Reverse-inference engine for raster-to-Gesso migration).
+
+-----
+
+## 📜 Standards & Contribution
+
+We maintain a **Zero-Warning Policy**. All pull requests must pass strict TypeScript and Rust linter checks with no errors. Every new feature must be semantically tagged to maintain RAG traceability.
+
+### License
+
+Released under the **MIT License**.
+
+-----
+
+© 2026 Gesso Working Group. **Deterministic Intent. Sovereign Execution. Explicit Logic.**
