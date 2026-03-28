@@ -175,7 +175,6 @@ Released under the **MIT License**.
 
 -----
 
-© 2026 Gesso Working Group. **Deterministic Intent. Sovereign Execution. Explicit Logic.**
 
 ## 👤 Creator & Maintainer
 
@@ -185,3 +184,4 @@ Gesso Studio 1.0 was conceived and built by **Alec Borman** – a systems archit
 - **GitHub:** [@alec-borman](https://github.com/alec-borman)
 
 For inquiries, collaborations, or to discuss the future of sovereign creative infrastructure, reach out directly.
+© 2026 Gesso Working Group. **Deterministic Intent. Sovereign Execution. Explicit Logic.**
