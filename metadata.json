@@ -1,0 +1,5 @@
+{
+  "name": "Gesso DSL Parser",
+  "description": "Deterministic, declarative DSL for visual art - Sprint 1 Parser Engine",
+  "requestFramePermissions": []
+}
