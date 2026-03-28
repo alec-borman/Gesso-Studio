@@ -13,6 +13,33 @@ In the current generative landscape, visual assets are treated as **Implicit Sta
 **Gesso is the recovery of Explicit State.** It is a deterministic, declarative Domain-Specific Language (DSL) that defines visual space as a sequence of **Material Negotiations**. Instead of storing flattened pixels, Gesso stores pigment chemistry, brush dynamics, and volumetric logic. By shifting the "Source of Truth" from the resulting image to the underlying instruction set, Gesso provides a universal "Narrow Waist" between high-level AI imagination and physical/computational execution.
 
 -----
+## ⛓️ The Blockchain Implementation: Intent as a Hard Asset
+
+Current Non-Fungible Token (NFT) standards rely on "Implicit Pointers"—the token contains a URL pointing to a static bitmap stored on a centralized server or IPFS. If the storage provider fails or the link breaks, the visual asset is lost.
+
+**Gesso transforms the NFT from a pointer to a protocol.** Because Gesso source files are lightweight and deterministic, the fundamental logic of the artwork is stored directly in the smart contract’s state, ensuring the work exists as long as the blockchain itself.
+
+### 1. On-Chain Logic & Atomic Storage
+A high-fidelity 8k PNG can exceed 50MB, making on-chain storage economically impossible. A Gesso source file representing the same work typically averages **2KB to 10KB**. This allows the "Source of Truth" (the AST) to be stored in calldata or contract state, providing true **Atomic Provenance**.
+
+### 2. Forensic Provenance & Deterministic Verification
+Gesso enables **Mathematical Witnessing**. Since the realization engine is deterministic, a smart contract or third-party auditor can verify that a specific visual output is the unique, bit-identical result of a specific on-chain instruction set. This eliminates "Generative Hallucination" and establishes a verifiable chain of custody for every pigment negotiation and brush stroke.
+
+### 3. Renderer-Agnostic Longevity
+Digital art is traditionally "trapped" in the resolution and color space of its creation era. Gesso assets are immune to technological obsolescence.
+* **2026:** Realized as a 2D Canvas preview via the Simulation Track.
+* **2030:** Realized in a VR environment with full PBR volumetric lighting.
+* **2035:** Realized by a 6-axis robotic arm into a physical oil painting.
+The **Intent** (the token) remains immutable; only the power of the **Realizer** grows.
+
+### 4. Dynamic Substrates & Programmable Mutation
+Through the **Projectional Loop**, a Gesso NFT can be "Living Infrastructure." A smart contract can allow the owner to mutate specific variables—such as shifting the `viscosity` of the paint or the `lighting` azimuth—by interacting with the chain. The AST mutates on-chain, and the realization updates across all platforms instantly, governed by the artist’s original logical constraints.
+
+---
+
+## 💎 The Substrate License Model
+
+Gesso shifts the value proposition from "Owning a Result" to **"Stewardship of Intent."** Owning a Gesso-based asset acts as a **Substrate License**. It grants the holder the sovereign right to "Eject" the realization into any format—digital, volumetric, or physical—without losing the mathematical connection to the original artist’s specification. It moves digital art from a speculative commodity to a professional **Product Lifecycle Management (PLM)** asset.
 
 ## ⚖️ The Sovereignty Mandate
 
