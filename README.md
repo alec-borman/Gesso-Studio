@@ -176,3 +176,12 @@ Released under the **MIT License**.
 -----
 
 © 2026 Gesso Working Group. **Deterministic Intent. Sovereign Execution. Explicit Logic.**
+
+## 👤 Creator & Maintainer
+
+Gesso Studio 1.0 was conceived and built by **Alec Borman** – a systems architect, Rust/Wasm engineer, and the creator of the Tenuto language. Gesso extends the same deterministic, archival‑first philosophy from music notation to visual art.
+
+- **LinkedIn:** [Alec Borman](https://www.linkedin.com/in/alec-borman-9680b3160/)
+- **GitHub:** [@alec-borman](https://github.com/alec-borman)
+
+For inquiries, collaborations, or to discuss the future of sovereign creative infrastructure, reach out directly.
