@@ -1,12 +1,3 @@
-\<div align="center"\>
-\<h1\>Gesso Studio 1.0: The Visual Blueprint\</h1\>
-\<p\>\<b\>The Sovereign System of Record for Visual Intent\</b\>\</p\>
-\<p\>\<i\>A Deterministic Substrate Protocol for the Generative Era\</i\>\</p\>
-<br>
-\</div\>
-
------
-
 ## 👁️ The Vision: Recovering Atomic Intent
 
 In the current generative landscape, visual assets are treated as **Implicit State** (bitmaps). A PNG or JPEG stores only the resulting color of a coordinate, completely stripping away the forces, geometry, and material physics that created it. This "Flattening Problem" results in a total loss of **Visual Provenance**, making surgical editing, version control, and cross-platform realization impossible without destructive re-processing.
